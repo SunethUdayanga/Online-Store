@@ -9,10 +9,26 @@
     background-image: url('../image/logo/logo-dark.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 400px;
     height: 150px;
     
+    
 }
+
+#f_navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    color: aliceblue;
+    pointer-events: none;
+}
+
+
+
+
+
+
 
 /* .headder-back {
     width: 100%;
