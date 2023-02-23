@@ -15,10 +15,10 @@
     
 }
 
-#f_navbar a {
+#f_navbar #nav-logo-name {
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 0.8em;
     letter-spacing: 0.2em;
     color: aliceblue;
     pointer-events: none;
