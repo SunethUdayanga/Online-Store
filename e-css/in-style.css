@@ -1,0 +1,33 @@
+
+#headder1 div a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+#headder2 {
+    background-image: url('../image/logo/logo-dark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 150px;
+    
+}
+
+/* .headder-back {
+    width: 100%;
+    background-image: url('../image/logo/h-logo-light.png') no-repeat;
+    background-position: center;
+    background-size:cover;
+} */
+
+#f_navbar .nav-logo {
+    background-image: url('../image/logo/favicon.png');
+    background-position: center;
+    height: 36px;
+    width: 36px;
+    background-size: cover;
+    /* background-color: aliceblue; */
+
+
+}
