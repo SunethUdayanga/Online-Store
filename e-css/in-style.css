@@ -25,25 +25,14 @@
 }
 
 
-
-
-
-
-
-/* .headder-back {
-    width: 100%;
-    background-image: url('../image/logo/h-logo-light.png') no-repeat;
-    background-position: center;
-    background-size:cover;
-} */
-
 #f_navbar .nav-logo {
     background-image: url('../image/logo/favicon.png');
     background-position: center;
     height: 36px;
     width: 36px;
     background-size: cover;
-    /* background-color: aliceblue; */
+    
 
 
 }
+
