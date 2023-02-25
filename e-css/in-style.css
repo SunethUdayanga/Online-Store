@@ -1,0 +1,38 @@
+
+#headder1 div a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+#headder2 {
+    background-image: url('../image/logo/logo-dark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 150px;
+    
+    
+}
+
+#f_navbar #nav-logo-name {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: aliceblue;
+    pointer-events: none;
+}
+
+
+#f_navbar .nav-logo {
+    background-image: url('../image/logo/favicon.png');
+    background-position: center;
+    height: 36px;
+    width: 36px;
+    background-size: cover;
+    
+
+
+}
+
