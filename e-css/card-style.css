@@ -19,7 +19,7 @@
 
 .card {
     position:relative;
-    --background: linear-gradient(to left, #baf72b 0%, #3ae735 100%);
+    --background: linear-gradient(to left, #ff6868 0%, #07d800 100%);
     /* display: flex;
     flex-direction: column; */
     margin: 10px;
@@ -29,8 +29,7 @@
     border-radius: 1rem;
     /* overflow: visible; */
     background: #f7ba2b;
-    background: var(--background);
-    
+    background: var(--background); 
     z-index: 1;
 }
 

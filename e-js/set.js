@@ -11,39 +11,53 @@ var a = fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRwA7ScYW-qlcurAr
         const box = document.createElement("div");
         box.id = "card"+idvalue;
         box.className = "card";
-        document.getElementById("cbody").appendChild(box);
+        
         
         var rowColData = rows[row].split(',');
+        console.log(rowColData);
+
 
         const cin = document.createElement("div");
         cin.className = "card-info";
         cin.id = "card-info"+idvalue;
-        document.getElementById("card"+idvalue).appendChild(cin);
+        
 
         const cimg = document.createElement("img");
         cimg.className ="c-img";
         var ilink = rowColData[6];
+        if (ilink == null || ilink =="") {
+            break;
+        }
         cimg.src = ilink.replace("https://drive.google.com/open?id=","https://drive.google.com/uc?export=view&id=");
-        document.getElementById("card-info"+idvalue).appendChild(cimg);
+        
 
         const ttlp = document.createElement("p");
         ttlp.className ="title";
         ttlp.innerText = rowColData[1];
-        document.getElementById("card-info"+idvalue).appendChild(ttlp);
+        
 
         const ttlpb = document.createElement("p");
         ttlpb.className ="i-price";
         ttlpb.innerText = rowColData[4];
-        document.getElementById("card-info"+idvalue).appendChild(ttlpb);
+        
 
         const cdbtn = document.createElement("button");
         cdbtn.className = "btn-det";
         cdbtn.innerHTML = "Details";
-        document.getElementById("card-info"+idvalue).appendChild(cdbtn);
+        
 
         const cpbtn = document.createElement("button");
         cpbtn.className = "btn-cart";
         cpbtn.innerHTML = "To Cart";
+        
+
+
+        document.getElementById("cbody").appendChild(box);
+        document.getElementById("card"+idvalue).appendChild(cin);
+        document.getElementById("card-info"+idvalue).appendChild(cimg);
+        document.getElementById("card-info"+idvalue).appendChild(ttlp);
+        document.getElementById("card-info"+idvalue).appendChild(ttlpb);
+        document.getElementById("card-info"+idvalue).appendChild(cdbtn);
         document.getElementById("card-info"+idvalue).appendChild(cpbtn);
 
 
@@ -51,7 +65,7 @@ var a = fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRwA7ScYW-qlcurAr
 
         
 
-        console.log(rowColData[5]);
+        console.log(rowColData[4]);
         
         
         
