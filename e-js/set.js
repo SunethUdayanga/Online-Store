@@ -54,13 +54,15 @@ var a = fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRwA7ScYW-qlcurAr
         cdbtn.innerHTML = "Details";
         cdbtn.id = "st-btn";
         cdbtn.onclick = function() {
+          const Adetdiv = document.createElement("div");
+          Adetdiv.className ="Adetails";
+          Adetdiv.id = "Adet-div";
+          
           const detdiv = document.createElement("div");
           detdiv.className ="details";
           detdiv.id = "det-div";
 
-          const Adetdiv = document.createElement("div");
-          Adetdiv.className ="Adetails";
-          Adetdiv.id = "Adet-div";
+          
 
           const detimg = document.createElement("img");
           detimg.className = "det-img";

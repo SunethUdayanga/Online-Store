@@ -1,4 +1,9 @@
 
+:root {
+    --text-color1:#a1a1a1;
+
+}
+
 #headder1 div a {
     text-decoration: none;
     color: gray;
@@ -35,4 +40,57 @@
 
 
 }
+
+.footer {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: normal;
+    display: block;
+    text-align: left;
+}
+
+.footer-heading {
+    color: var(--text-color1);
+    font-size: 18px;
+    /* margin-bottom: 30px; */
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.footer-heading .logo , p , .list-unstyled a, .tag-cloud-link{
+    text-decoration: none;
+    color: var(--text-color1);
+}
+
+
+.d-block {
+    margin-left: 10px;
+}
+
+.d-block:hover {
+    color: antiquewhite;
+    
+}
+
+.text-success:hover {
+    color: rgb(80, 255, 57);
+    text-shadow: 0px 0px 16px #97ff7d;
+    transition: 400ms;
+
+}
+
+/* #footer-col-2 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
+#btn_sub:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
 

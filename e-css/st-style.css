@@ -1,4 +1,4 @@
-/* body {
+body {
     background-color: #353535;
 }
 
@@ -11,7 +11,7 @@
     justify-content: center;
 
 
-} */
+}
 
 
 .cbody {
@@ -23,17 +23,19 @@
 
 .acard {
     position:relative;
-    --background: linear-gradient(to left, #01f501 0%, #76ea53 100%);
+    --background: linear-gradient(to left, #747474 0%, #afafaf 100%);
     /* display: flex;
     flex-direction: column; */
     margin: 10px;
     width: 210px;
     height: 330px;
-    padding: 5px;
+    padding: 4px;
     border-radius: 1rem;
     /* overflow: visible; */
-    background: #f7ba2b;
-    background: var(--background);
+    /* background: #f7ba2b; */
+    /* background: var(--background); */
+    box-shadow: 0 0 10px 0px rgb(82, 82, 82);
+    
     
     z-index: 1;
 }
@@ -41,7 +43,7 @@
    
 .card-info {
 
-    --color: #353535;
+    --color: #3f3f3f;
     
     background: var(--color);
     color:#ea5358;
@@ -52,6 +54,7 @@
     height: 100%;
     overflow: visible;
     border-radius: .7rem;
+
 }
 
 .c-img {
@@ -59,7 +62,7 @@
     width: 200px;
     height: 170px;
     border-radius: 10px;
-    box-shadow: 0 6px 8px -1px rgb(102, 255, 0);
+    /* box-shadow: 0 6px 8px -1px rgb(102, 255, 0); */
 }
    
 .acard .title {
